@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conditional expression if... else</title>
+</head>
+<body>
+    <script language="javascript">
+        var stock, process;
+        stock = 0;
+        if (stock > 15) {
+            process = 1;
+            document.write("stock above maximum level!");
+        } else if ((stock < 5) && (stock > 0)) {
+            process = 2;
+            document.write("stock below minimum level!");
+        } else if (stock == 0) {
+            process = 3;
+            document.write("zero stock!");
+        } else {
+            process = 4;
+            document.write("good stock level!");
+        }
+    </script>
+</body>
+</html>
